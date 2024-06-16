@@ -51,7 +51,7 @@ public class Account {
     @Override
     public String toString() {
         return "Hello " + clientName +
-                " thank you for creating an account with our bank, your branch is " + agency +
+                ", thank you for creating an account with our bank, your branch is " + agency +
                 ", account " + number +
                 " and your balance " + balance +
                 " is now available for withdrawal.";
